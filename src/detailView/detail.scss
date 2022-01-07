@@ -1,0 +1,55 @@
+#detail{
+    h1{
+        padding:20px;
+        text-align: center;
+    }
+    #profile-box{
+        display: flex;
+        align-items: center;
+        padding-top: 120px;
+        border-bottom:1px solid #ccc;
+        img{
+            width: 60px;
+        }
+    }
+    #contents-box{
+        div{
+            line-height: 30px;
+            border-bottom: 1px solid #ccc;
+            padding:30px;
+        }
+    }
+    #image-box{
+        margin-top: 40px;
+        text-align: center;
+        position: relative;
+        width: 560px;
+        height: 560px;
+        left: 50%;
+        transform: translateX(-50%);
+        img{
+            position: absolute;
+            top: 0;
+            left: 0;
+            transform: translate(50,50);
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            margin: auto;
+            border-radius: 50%;
+        }
+    }
+}
+.btn{
+    padding-top: 50px;
+    span{
+        margin: 20px 6px;
+        padding: 10px 20px;
+        background-color: darkolivegreen;
+        color: #fff;
+        border: 0;
+        outline: 0;
+        border-radius: 6px;
+        cursor: pointer;
+    }
+}
