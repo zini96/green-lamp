@@ -40,7 +40,7 @@ function UploadPage(){
     }
     return(
         <div id="upload" className='innerCon'>
-            <h2>상품등록하기</h2>
+            <h2>상품 등록하기</h2>
             {/* Form태그와 자식요소들은 component, html요소와 다름(그래서 대문자 사용) */}
             <Form name="상품업로드" onFinish={onSubmit}>
                 <Form.Item name="upload" label={<div className='upload-label'>상품 사진</div>}>
